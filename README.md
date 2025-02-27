@@ -25,16 +25,27 @@ Original Fig. 16:
 ![Original Fig. 16](https://github.com/spitschan/WatsonYellott2012_PupilSize/blob/master/wy_allModels_orig.png)
 
 
-#### 5. Feedback
+#### 5. Python translation
+
+Simple Python translations of the original MATLAB codes can be found in
+  * `wy_getPupilSize.py` -- low-level function returning pupil size for different models
+  * `wy_demo.py` -- demo code reproducing Fig. 16 from Watson & Yellot (2012)
+  
+The Python version of the demonstration code produces graphics files 
+  * `py_allModels.png` -- output figure from this code, reproducing Fig. 16 from Watson & Yellot (2012) [PNG]
+  * `py_allModels.pdf` -- output figure from this code, reproducing Fig. 16 from Watson & Yellot (2012) [PDF]
+corresponding to the similarly named originals.
+
+#### 6. Feedback
 
 Any questions or comments? Please email manuel.spitschan@psy.ox.ac.uk.
 
 
-#### 6. References
+#### 7. References
 
 Watson AB & Yellott JI (2012) A unified formula for light-adapted pupil size. *J Vis 12*(10):12. [doi: 10.1167/12.10.12](https://doi.org/10.1167/12.10.12)
 
 
-#### 7. License
+#### 8. License
 
 This software is licensed under the MIT License. The code may be used freely.
