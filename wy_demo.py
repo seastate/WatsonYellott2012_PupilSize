@@ -83,3 +83,6 @@ ax1.legend(['Unified', 'Holladay', 'Crawford', 'MoonSpencer', 'DeGrootGebhard', 
 ax1.set_ylim([2, 8.15])
 ax1.set(title='Observer age: '+str(ageYrs)+' yrs\nField diameter: '+str(fieldDiameterDeg)+' deg')
 
+# Save plots
+plt.savefig('py_allModels.png',bbox_inches='tight',dpi=600)
+plt.savefig('py_allModels.pdf',bbox_inches='tight',dpi=600)
